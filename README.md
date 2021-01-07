@@ -1,11 +1,9 @@
-## 
-Clone the repo
+=>Clone the repo
 
+=>Run Command : composer install
 
-composer install
+=>Chnage DATABASE_URL in .env file
 
+=>Run Command : bin/console doctrine:migrations:migrate
 
-bin/console doctrine:migrations:migrate
-
-
-symfony server:start
+=>Run Command : symfony server:start
